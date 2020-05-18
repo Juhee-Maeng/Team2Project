@@ -107,23 +107,23 @@ R의 'rvest' 패키지를 이용하여 각 뉴스마다 본문, 제목, url을 �
 - NewsBada 가입하기
 ![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure10.png) 
 
-#### 뉴스 카드 패널 재공 
-- NewsBada - 기사 패널 뷰
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure11.png)
+#### 뉴스 카드 패널 재공  
+- NewsBada - 기사 패널 뷰  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure11.png)  
 
 - 기사 제목 및 텍스트 화면  
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure12.png)
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure12.png)  
 
 - 기사 검색 기능  
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure13.png)
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure13.png)  
 
 ## 5. 결론 및 향후 계획  
 ### 5.1 개발 일정  
 - 세부 개발 일정  
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/table4.png)
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/table4.png)  
 
 - WEBS  
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/table5.png)
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/table5.png)  
 
 ### 5.2 기대 효과  
 - 신문사마다 성향과 시각이 다양한데, 서비스 이용자의 측면에서는 하나의 플랫폼에서 여러 신문사들의 칼럼을 볼 수 있으므로 한 주제에 대해 다양한 시각을 볼 수 있다.  

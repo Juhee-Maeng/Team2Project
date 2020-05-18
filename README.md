@@ -79,14 +79,14 @@
 #### 크롤링 과정
 R의 'rvest' 패키지를 이용하여 각 뉴스마다 본문, 제목, url을 가져오기 위해 html node를 분석하였다. 그 결과 각 뉴스에 해당하는 node는 '#section_body li'이었다. 
 
-- 기사 크롤링 과정 - MySQL
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure5.png)
+- 기사 크롤링 과정 - MySQL  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure5.png)  
 
-- 기사 크롤링 과정 - 썸네일 크롤링 
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure6.png) 
+- 기사 크롤링 과정 - 썸네일 크롤링  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure6.png)  
 
-- 기사 크롤링 과정 - HTML 코드 
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure7.png) 
+- 기사 크롤링 과정 - HTML 코드  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure7.png)  
 
 #### 데이터베이스 정규화 
 ![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure8.png) 
@@ -109,5 +109,34 @@ R의 'rvest' 패키지를 이용하여 각 뉴스마다 본문, 제목, url을 �
 
 #### 뉴스 카드 패널 재공 
 - NewsBada - 기사 패널 뷰
-![alt_text]()
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure11.png)
+
+- 기사 제목 및 텍스트 화면  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure12.png)
+
+- 기사 검색 기능  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure13.png)
+
+## 5. 결론 및 향후 계획  
+### 5.1 개발 일정  
+- 세부 개발 일정  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/table4.png)
+
+- WEBS  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/table5.png)
+
+### 5.2 기대 효과  
+- 신문사마다 성향과 시각이 다양한데, 서비스 이용자의 측면에서는 하나의 플랫폼에서 여러 신문사들의 칼럼을 볼 수 있으므로 한 주제에 대해 다양한 시각을 볼 수 있다.  
+- 기존에 자신의 관심분야의 글 위주로 읽던 이용자들에게 새로운 주제의 칼럼을 제시하여 이요자로 하여금 관심분야 확장을 유도한다.  
+- 기사에 대한 성별 조회수를 제공하여 기사에 대한 성별 관심도를 알 수 있다.  
+
+### 5.3 향후 개선점  
+- 테마가 현재 6개에 대해서 노출하고 있기 때문에 더 많은 테마 기사 DB 크롤링 개발이 필요
+- 성별 조회수에 따른 좋아하는 기사 정렬 기능 추가  
+- 댓글 기능을 통해 사용자간의 커뮤니케이션 및 의견 전달 기능 추가  
+
+## 6. 참고 자료  
+- 1) 송인근 (2002), 『신문산업 발전을 위한 공동배달제의 실증적 연구 : "A" 신문사 단독지국과 겸영지국 비교 중심으로』 서강대학교 언론대학원  
+- 2) 강길홍 (2015) 『모바일뉴스 시대의 미디어 신뢰도에 관한 연구』 중앙대학교 신문방송대학원
+
 

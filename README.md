@@ -101,11 +101,11 @@ R의 'rvest' 패키지를 이용하여 각 뉴스마다 본문, 제목, url을 �
 
 ### 4.2 주요 기능
 #### 사용자 로그인 및 가입 
-- NewsBada 로그인 화면
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure9.png) 
+- NewsBada 로그인 화면  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure9.png)  
 
-- NewsBada 가입하기
-![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure10.png) 
+- NewsBada 가입하기  
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure10.png)  
 
 #### 뉴스 카드 패널 재공  
 - NewsBada - 기사 패널 뷰  

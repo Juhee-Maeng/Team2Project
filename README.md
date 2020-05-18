@@ -70,13 +70,44 @@
 우선 ARTICLE Entity를 살펴보면 URL_INFO Entity와 INFO Relation을 이루고있다. 두 Entity는 Url 정보를 Foreign Key로 서로 관계를 맺는다. ARTICLE의 경우 기사에 대한 성별 조회수, 테마에 대한 정보를 담고, URL_INFO의 경우 해당 기사의 날짜, 제목, 본문에 대한 정보를 담고 있는다. READ_ON Entity는 사용자가 해당 기사를 읽었는지 판단하기 위해 ARTICLE Entity와 연결되어 있고, Foreign Key는 A_Number이다. 그리고 READ_ON Entity와 USER Entity를 연결하여 사용자가 기사를 읽었는지 여부에 대한 정보를 저장한다. Foreign Key는 ID이다.  
 
 ### 3.4 개발 환경 구축
-- 개발 환경
+#### 개발 환경
   - 작성 언어 : JAva
   - 데이터베이스 : MySQL
   - DB 연결 : Java JDBC
   - 크롤링 언어 : R
   
-- 크롤링 과정
-R의 'rvest' 패키지를 이용하여 각 뉴스마다 본문, 제목, url을 가져오기 위해 html node를 분석하였다. 그 결과 각 뉴스에 해당하는 node는 '#section_body li'이었다.
+#### 크롤링 과정
+R의 'rvest' 패키지를 이용하여 각 뉴스마다 본문, 제목, url을 가져오기 위해 html node를 분석하였다. 그 결과 각 뉴스에 해당하는 node는 '#section_body li'이었다. 
 
-![alt_text]
+- 기사 크롤링 과정 - MySQL
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure5.png)
+
+- 기사 크롤링 과정 - 썸네일 크롤링 
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure6.png) 
+
+- 기사 크롤링 과정 - HTML 코드 
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure7.png) 
+
+#### 데이터베이스 정규화 
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure8.png) 
+- 1NF는 값이 1개씩만 존재하므로 만족
+- 키(=Key)에 속하지 않는 애트리뷰트 모두가 기본키에 완전 함수 종속이므로 2NF 만족
+- 키(=Key)에 속하지 않은 모든 애트리뷰트들이 기본 키에 이행적 함수 종속이 아니므로 3NF 만족
+- 릴레이션 R의 모든 결정자가 후보키 이므로, BCNF 만족
+
+## 4. 구현 프로그램 주요 기능 
+### 4.1 구현 프로그램 - 뉴스바다 
+각종 테마 및 신문사의 기사 정보를 받고, 사용자에게 다양한 기사를 보여주는 종합 신문 기사 제공 프로그램 
+
+### 4.2 주요 기능
+#### 사용자 로그인 및 가입 
+- NewsBada 로그인 화면
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure9.png) 
+
+- NewsBada 가입하기
+![alt_text](https://github.com/Juhee-Maeng/Team2Project/blob/master/images/figure10.png) 
+
+#### 뉴스 카드 패널 재공 
+- NewsBada - 기사 패널 뷰
+![alt_text]()
+
